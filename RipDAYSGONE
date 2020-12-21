@@ -1,0 +1,9 @@
+na = input("What is your name: ")
+print("hello " + na")
+print("")
+IP = input("Targets IP: ")
+Pac = input("How many seconds: ")
+i = 1
+while i >= Pac:
+    print("attacking " + IP)
+    i = i + 1
